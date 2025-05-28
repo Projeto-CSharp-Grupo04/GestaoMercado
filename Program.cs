@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Runtime.CompilerServices;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GestaoMercado
+﻿namespace GestaoMercado
 {
     internal class Program
     {
@@ -31,7 +22,22 @@ namespace GestaoMercado
         }
         public static void Main()
         {
-            LogarNoUsuario();
+            try
+            {
+                Menu menu = new Menu();
+                menu.MostrarApresentacao();
+                menu.MostrarComandos();
+            }
+            catch (Exception excecao)
+            {
+                Console.WriteLine("Erro: {0}", excecao.Message);
+                Console.WriteLine("Stack trace: {0}", excecao.StackTrace);
+            }
+            finally
+            {
+                Console.WriteLine("Pressione qualquer tecla para sair ...");
+                Console.ReadKey();
+            }
         }
     }
 }
