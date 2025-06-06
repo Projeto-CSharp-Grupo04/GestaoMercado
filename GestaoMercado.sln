@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.36105.23 d17.13
+VisualStudioVersion = 17.13.36105.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoMercado", "GestaoMercado.csproj", "{AB3AAF53-ECE9-4080-9497-351EF03FAC91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forms", "..\Forms\Forms.csproj", "{F71F2BBF-7D7E-4EFC-95AE-F3EF0F2110BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AB3AAF53-ECE9-4080-9497-351EF03FAC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB3AAF53-ECE9-4080-9497-351EF03FAC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB3AAF53-ECE9-4080-9497-351EF03FAC91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71F2BBF-7D7E-4EFC-95AE-F3EF0F2110BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71F2BBF-7D7E-4EFC-95AE-F3EF0F2110BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71F2BBF-7D7E-4EFC-95AE-F3EF0F2110BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71F2BBF-7D7E-4EFC-95AE-F3EF0F2110BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
