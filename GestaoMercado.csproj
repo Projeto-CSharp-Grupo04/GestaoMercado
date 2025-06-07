@@ -18,4 +18,18 @@
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.0" />
 </ItemGroup>
 
+	<ItemGroup>
+		<Compile Include="Tela_de_Login.cs">
+			<SubType>Form</SubType>
+		</Compile>
+		<Compile Include="Tela_de_Login.Designer.cs">
+			<DependentUpon>Tela_de_Login.cs</DependentUpon>
+			<SubType>Form</SubType>
+		</Compile>
+		<EmbeddedResource Include="Tela_de_Login.resx">
+			<DependentUpon>Tela_de_Login.cs</DependentUpon>
+		</EmbeddedResource>
+	</ItemGroup>
+
+
 </Project>
