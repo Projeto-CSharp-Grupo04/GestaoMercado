@@ -9,6 +9,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.Data.SqlClient;
+using static System.Net.Mime.MediaTypeNames;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 
 namespace GestaoMercado
@@ -55,12 +57,26 @@ namespace GestaoMercado
 
             byte[] foto = memory.ToArray();
 
-            const string string_conexao = @"";
+            string stringDeConexao = "Server=localhost;Database=sistemaMercado;Trusted_Connection=True;";
 
-            SqlConnection conexao = new SqlConnection();
+            SqlConnection conexao = new SqlConnection(stringDeConexao);
 
+            SqlCommand comando = new SqlCommand("insert into tb_produtos (nome,quantidade,preco,imagem) VALUES(@nome, @quantidade, @preco, @imagem)", conexao);
 
+            SqlParameter nome = new SqlParameter("@nome", SqlDbType.VarChar);
+            SqlParameter quantidade = new SqlParameter("@quantidade", SqlDbType.Int);
+            SqlParameter preco = new SqlParameter("@preco", SqlDbType.Decimal);
+            SqlParameter imagem = new SqlParameter("@imagem", SqlDbType.VarChar);
 
+            nome.Value = nomeProduto.Text;
+            quantidade.Value = textBox2.Text;
+            preco.Value = textBox3.Text;
+            imagem.Value = foto;
+
+            comando.Parameters.Add(nome);
+            comando.Parameters.Add(quantidade);
+            comando.Parameters.Add(preco);
+            comando.Parameters.Add(imagem);
 
         }
 
@@ -71,9 +87,21 @@ namespace GestaoMercado
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 string nome = openFileDialog.FileName;
-                // Aqui você pode usar o nome do arquivo como quiser
-                MessageBox.Show("Arquivo selecionado: " + nome);
+
+                bmp = new Bitmap(nome);
+
+                pictureBox1.Image = bmp;
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -30,7 +30,7 @@
         {
             components = new System.ComponentModel.Container();
             label1 = new Label();
-            textBox1 = new TextBox();
+            nomeProduto = new TextBox();
             button1 = new Button();
             label2 = new Label();
             label3 = new Label();
@@ -59,12 +59,13 @@
             label1.Text = "Nome";
             label1.Click += label1_Click;
             // 
-            // textBox1
+            // nomeProduto
             // 
-            textBox1.Location = new Point(30, 41);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(260, 23);
-            textBox1.TabIndex = 1;
+            nomeProduto.Location = new Point(30, 41);
+            nomeProduto.Name = "nomeProduto";
+            nomeProduto.Size = new Size(260, 23);
+            nomeProduto.TabIndex = 1;
+            nomeProduto.TextChanged += textBox1_TextChanged;
             // 
             // button1
             // 
@@ -102,6 +103,7 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(260, 23);
             textBox2.TabIndex = 5;
+            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // textBox3
             // 
@@ -209,7 +211,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(button1);
-            Controls.Add(textBox1);
+            Controls.Add(nomeProduto);
             Controls.Add(label1);
             Name = "GerencialProdutos";
             Text = "Gerenciamento";
@@ -222,7 +224,7 @@
         #endregion
 
         private Label label1;
-        private TextBox textBox1;
+        private TextBox nomeProduto;
         private Button button1;
         private Label label2;
         private Label label3;
