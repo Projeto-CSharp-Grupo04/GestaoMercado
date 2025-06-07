@@ -16,3 +16,4 @@ C:\Users\rebek\OneDrive\Documentos\Mercadinho\FormLogin\FormLogin\obj\Debug\net8
 C:\Users\rebek\OneDrive\Documentos\Mercadinho\FormLogin\FormLogin\obj\Debug\net8.0-windows\GestaoMercado.pdb
 C:\Users\rebek\OneDrive\Documentos\Mercadinho\FormLogin\FormLogin\obj\Debug\net8.0-windows\GestaoMercado.genruntimeconfig.cache
 C:\Users\rebek\OneDrive\Documentos\Mercadinho\FormLogin\FormLogin\obj\Debug\net8.0-windows\ref\GestaoMercado.dll
+C:\Users\rebek\OneDrive\Documentos\Mercadinho\FormLogin\FormLogin\obj\Debug\net8.0-windows\GestaoMercado.GerencialProdutos.resources
