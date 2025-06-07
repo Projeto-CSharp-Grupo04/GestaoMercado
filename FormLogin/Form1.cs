@@ -19,9 +19,12 @@ public partial class Form1 : Form
 
     private void button1_Click(object sender, EventArgs e)
     {
-        if ((textBox1.Text == "adm") && (textBox2.Text == "123"))
+        if ((textBox2.Text == "adm") && (textBox1.Text == "123"))
         {
+            GerencialProdutos gerencial = new GerencialProdutos();
+            gerencial.Show();
 
+            this.Hide();
         }
         else
         {

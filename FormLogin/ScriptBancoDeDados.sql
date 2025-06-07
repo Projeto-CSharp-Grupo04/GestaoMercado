@@ -19,5 +19,5 @@ CREATE TABLE tb_produto (
     nome VARCHAR(255),
     quantidade INT,
     preco DECIMAL(10,2),
-    imagem VARCHAR(255)
+    imagem BINARY(255)
 );

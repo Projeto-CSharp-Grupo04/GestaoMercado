@@ -69,7 +69,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(109, 189);
+            button1.Location = new Point(61, 189);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 2;
@@ -162,10 +162,11 @@
             pictureBox1.Size = new Size(220, 171);
             pictureBox1.TabIndex = 11;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // salvar
             // 
-            salvar.Location = new Point(471, 225);
+            salvar.Location = new Point(457, 225);
             salvar.Name = "salvar";
             salvar.Size = new Size(75, 23);
             salvar.TabIndex = 12;
@@ -175,7 +176,7 @@
             // 
             // BuscarImagem
             // 
-            BuscarImagem.Location = new Point(326, 225);
+            BuscarImagem.Location = new Point(154, 189);
             BuscarImagem.Name = "BuscarImagem";
             BuscarImagem.Size = new Size(75, 23);
             BuscarImagem.TabIndex = 13;
@@ -185,7 +186,7 @@
             // 
             // selecionarImagem
             // 
-            selecionarImagem.Location = new Point(402, 225);
+            selecionarImagem.Location = new Point(347, 225);
             selecionarImagem.Name = "selecionarImagem";
             selecionarImagem.Size = new Size(75, 23);
             selecionarImagem.TabIndex = 14;
