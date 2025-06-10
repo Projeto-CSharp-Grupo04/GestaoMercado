@@ -120,10 +120,13 @@ namespace GestaoMercado
 
                 comando.ExecuteNonQuery();
             }
+
             catch (Exception E)
             {
                 MessageBox.Show(E.Message);
             }
+
+            conexao.Close();
 
         }
 

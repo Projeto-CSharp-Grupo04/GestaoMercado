@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rebek\\OneDrive\\Documentos\\Mercadinho\\FormLogin\\",
+  "WorkspaceRootPath": "C:\\Users\\Tecnico\\Documents\\GestaoMercado\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|c:\\users\\rebek\\onedrive\\documentos\\mercadinho\\formlogin\\formlogin\\gerencialprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|solutionrelative:formlogin\\gerencialprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|c:\\users\\rebek\\onedrive\\documentos\\mercadinho\\formlogin\\formlogin\\gerencialprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|c:\\users\\tecnico\\documents\\gestaomercado\\formlogin\\gerencialprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|solutionrelative:formlogin\\gerencialprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|c:\\users\\rebek\\onedrive\\documentos\\mercadinho\\formlogin\\formlogin\\scriptbancodedados.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|solutionrelative:formlogin\\scriptbancodedados.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|c:\\users\\tecnico\\documents\\gestaomercado\\formlogin\\gerencialprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|solutionrelative:formlogin\\gerencialprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|C:\\Users\\rebek\\OneDrive\\Documentos\\Mercadinho\\FormLogin\\formlogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|solutionrelative:formlogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|c:\\users\\tecnico\\documents\\gestaomercado\\formlogin\\scriptbancodedados.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|solutionrelative:formlogin\\scriptbancodedados.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|c:\\users\\tecnico\\documents\\gestaomercado\\formlogin\\scriptbancodedados.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|solutionrelative:formlogin\\scriptbancodedados.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,57 +29,45 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ScriptBancoDeDados.sql",
-              "DocumentMoniker": "C:\\Users\\rebek\\OneDrive\\Documentos\\Mercadinho\\FormLogin\\FormLogin\\ScriptBancoDeDados.sql",
-              "RelativeDocumentMoniker": "FormLogin\\ScriptBancoDeDados.sql",
-              "ToolTip": "C:\\Users\\rebek\\OneDrive\\Documentos\\Mercadinho\\FormLogin\\FormLogin\\ScriptBancoDeDados.sql",
-              "RelativeToolTip": "FormLogin\\ScriptBancoDeDados.sql",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-06-10T11:52:36.408Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GerencialProdutos.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\rebek\\OneDrive\\Documentos\\Mercadinho\\FormLogin\\FormLogin\\GerencialProdutos.cs",
-              "RelativeDocumentMoniker": "FormLogin\\GerencialProdutos.cs",
-              "ToolTip": "C:\\Users\\rebek\\OneDrive\\Documentos\\Mercadinho\\FormLogin\\FormLogin\\GerencialProdutos.cs [Projeto]",
-              "RelativeToolTip": "FormLogin\\GerencialProdutos.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T11:49:35.868Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GerencialProdutos.cs",
-              "DocumentMoniker": "C:\\Users\\rebek\\OneDrive\\Documentos\\Mercadinho\\FormLogin\\FormLogin\\GerencialProdutos.cs",
-              "RelativeDocumentMoniker": "FormLogin\\GerencialProdutos.cs",
-              "ToolTip": "C:\\Users\\rebek\\OneDrive\\Documentos\\Mercadinho\\FormLogin\\FormLogin\\GerencialProdutos.cs",
-              "RelativeToolTip": "FormLogin\\GerencialProdutos.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwCEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:54:07.03Z",
+              "DocumentIndex": 2,
+              "Title": "ScriptBancoDeDados.sql ",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Documents\\GestaoMercado\\FormLogin\\ScriptBancoDeDados.sql",
+              "RelativeDocumentMoniker": "FormLogin\\ScriptBancoDeDados.sql",
+              "ToolTip": "C:\\Users\\Tecnico\\Documents\\GestaoMercado\\FormLogin\\ScriptBancoDeDados.sql",
+              "RelativeToolTip": "FormLogin\\ScriptBancoDeDados.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-10T23:24:50.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\rebek\\OneDrive\\Documentos\\Mercadinho\\FormLogin\\FormLogin\\Form1.cs",
-              "RelativeDocumentMoniker": "FormLogin\\Form1.cs",
-              "ToolTip": "C:\\Users\\rebek\\OneDrive\\Documentos\\Mercadinho\\FormLogin\\FormLogin\\Form1.cs [Projeto]",
-              "RelativeToolTip": "FormLogin\\Form1.cs [Projeto]",
+              "DocumentIndex": 0,
+              "Title": "GerencialProdutos.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Documents\\GestaoMercado\\FormLogin\\GerencialProdutos.cs",
+              "RelativeDocumentMoniker": "FormLogin\\GerencialProdutos.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Documents\\GestaoMercado\\FormLogin\\GerencialProdutos.cs",
+              "RelativeToolTip": "FormLogin\\GerencialProdutos.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAiwHkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:31:23.073Z"
+              "WhenOpened": "2025-06-10T23:23:19.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GerencialProdutos.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Tecnico\\Documents\\GestaoMercado\\FormLogin\\GerencialProdutos.cs",
+              "RelativeDocumentMoniker": "FormLogin\\GerencialProdutos.cs",
+              "ToolTip": "C:\\Users\\Tecnico\\Documents\\GestaoMercado\\FormLogin\\GerencialProdutos.cs [Projeto]",
+              "RelativeToolTip": "FormLogin\\GerencialProdutos.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T23:12:42.443Z",
+              "EditorCaption": " [Projeto]"
             }
           ]
         }
