@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\rebek\\OneDrive\\Documentos\\Mercadinho\\FormLogin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|c:\\users\\rebek\\onedrive\\documentos\\mercadinho\\formlogin\\formlogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|solutionrelative:formlogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|c:\\users\\rebek\\onedrive\\documentos\\mercadinho\\formlogin\\formlogin\\gerencialprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|solutionrelative:formlogin\\gerencialprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|c:\\users\\rebek\\onedrive\\documentos\\mercadinho\\formlogin\\formlogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D1CEA3F9-AB9B-449B-A587-AA70288EB846}|FormLogin\\GestaoMercado.csproj|solutionrelative:formlogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,20 +26,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GerencialProdutos.cs",
               "DocumentMoniker": "C:\\Users\\rebek\\OneDrive\\Documentos\\Mercadinho\\FormLogin\\FormLogin\\GerencialProdutos.cs",
               "RelativeDocumentMoniker": "FormLogin\\GerencialProdutos.cs",
               "ToolTip": "C:\\Users\\rebek\\OneDrive\\Documentos\\Mercadinho\\FormLogin\\FormLogin\\GerencialProdutos.cs",
               "RelativeToolTip": "FormLogin\\GerencialProdutos.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAApwCEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwBYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T15:54:07.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\rebek\\OneDrive\\Documentos\\Mercadinho\\FormLogin\\FormLogin\\Form1.cs",
               "RelativeDocumentMoniker": "FormLogin\\Form1.cs",
