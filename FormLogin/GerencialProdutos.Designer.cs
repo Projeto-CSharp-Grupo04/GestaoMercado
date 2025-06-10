@@ -52,7 +52,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(30, 18);
+            label1.Location = new Point(30, 34);
             label1.Name = "label1";
             label1.Size = new Size(50, 20);
             label1.TabIndex = 0;
@@ -61,7 +61,7 @@
             // 
             // nomeProduto
             // 
-            nomeProduto.Location = new Point(30, 41);
+            nomeProduto.Location = new Point(30, 57);
             nomeProduto.Name = "nomeProduto";
             nomeProduto.Size = new Size(260, 23);
             nomeProduto.TabIndex = 1;
@@ -69,7 +69,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(61, 189);
+            button1.Location = new Point(39, 208);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 2;
@@ -80,7 +80,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(30, 76);
+            label2.Location = new Point(30, 92);
             label2.Name = "label2";
             label2.Size = new Size(87, 20);
             label2.TabIndex = 3;
@@ -91,7 +91,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(30, 134);
+            label3.Location = new Point(30, 150);
             label3.Name = "label3";
             label3.Size = new Size(46, 20);
             label3.TabIndex = 4;
@@ -99,7 +99,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(30, 99);
+            textBox2.Location = new Point(30, 115);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(260, 23);
             textBox2.TabIndex = 5;
@@ -107,14 +107,14 @@
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(30, 157);
+            textBox3.Location = new Point(30, 173);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(260, 23);
             textBox3.TabIndex = 6;
             // 
             // button2
             // 
-            button2.Location = new Point(43, 225);
+            button2.Location = new Point(46, 243);
             button2.Name = "button2";
             button2.Size = new Size(50, 23);
             button2.TabIndex = 7;
@@ -130,7 +130,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(99, 225);
+            button3.Location = new Point(102, 243);
             button3.Name = "button3";
             button3.Size = new Size(50, 23);
             button3.TabIndex = 8;
@@ -139,7 +139,7 @@
             // 
             // editar
             // 
-            editar.Location = new Point(154, 225);
+            editar.Location = new Point(157, 243);
             editar.Name = "editar";
             editar.Size = new Size(50, 23);
             editar.TabIndex = 9;
@@ -148,7 +148,7 @@
             // 
             // excluir
             // 
-            excluir.Location = new Point(210, 225);
+            excluir.Location = new Point(213, 243);
             excluir.Name = "excluir";
             excluir.Size = new Size(50, 23);
             excluir.TabIndex = 10;
@@ -166,7 +166,7 @@
             // 
             // salvar
             // 
-            salvar.Location = new Point(457, 225);
+            salvar.Location = new Point(201, 208);
             salvar.Name = "salvar";
             salvar.Size = new Size(75, 23);
             salvar.TabIndex = 12;
@@ -176,7 +176,7 @@
             // 
             // BuscarImagem
             // 
-            BuscarImagem.Location = new Point(154, 189);
+            BuscarImagem.Location = new Point(120, 208);
             BuscarImagem.Name = "BuscarImagem";
             BuscarImagem.Size = new Size(75, 23);
             BuscarImagem.TabIndex = 13;
@@ -186,11 +186,11 @@
             // 
             // selecionarImagem
             // 
-            selecionarImagem.Location = new Point(347, 225);
+            selecionarImagem.Location = new Point(367, 225);
             selecionarImagem.Name = "selecionarImagem";
-            selecionarImagem.Size = new Size(75, 23);
+            selecionarImagem.Size = new Size(128, 23);
             selecionarImagem.TabIndex = 14;
-            selecionarImagem.Text = "Selecionar";
+            selecionarImagem.Text = "Selecionar Imagem";
             selecionarImagem.UseVisualStyleBackColor = true;
             selecionarImagem.Click += button4_Click_1;
             // 
@@ -198,7 +198,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(582, 277);
+            ClientSize = new Size(585, 291);
             Controls.Add(selecionarImagem);
             Controls.Add(BuscarImagem);
             Controls.Add(salvar);
